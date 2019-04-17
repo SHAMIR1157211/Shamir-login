@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Prestamos & Soluciones</title>
+
+	
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' 
+
+type='text/css'>
+
+</head>
+<body>
+
+
+
+<div class="wrapper paso-1">
+
+<header class="header">
+ <div class="contain">
+<h2><img src="images/logo.png" alt="SC SOLUCIONES"></h2>
+ </div>
+
+</header>
+
+ <nav class="navbar">
+	
+
+<span class="item"><span>1</span> <span>Datos personales</span></span>
+			
+
+
+<span class="item"><span>2</span> <span>Siguiente</span></span>
+	
+		<span class="item"><span>3</span> <span>Finalizar</span></span>
+     </nav>
+	
+
+<div class="contain content">
+<header>
+<h2>¡Bienvenido!</h2>
+ <p>El mejor momento para empezar a generar dinero es hoy.</p>
+ </header>
+
+ <form class="form">
+	<fieldset>
+	
+<div class="col file">
+ <input type="file">
+			
+
+</div>
+
+	<div class="col">
+
+
+
+
+
+
+<label>NOMBRE DEL CLIENTE <span class="tooltip">?</span>
+
+<!-- Nombre completo del cliente.Campo obligatorio, entre 5-50 carácteres 
+Sólo se permit texto -->
+<input type="text" name="nombre" placeholder=""
+required pattern="[A-Za-z]{5,50}"
+title="Favor revisar datos, solo textos permitidos">
+ </label>
+
+
+<label>IDENTIFICACIÓN  DEL CLIENTE<span class="tooltip">?</span>
+
+<!-- NUmero de cedula.Campo obligatorio, entre 11-20 carácteres 
+Sólo se permitennúmeros -->
+<input type="text" name="nombre" placeholder=""
+required pattern="[0-9]{11,20}"
+title="Favor revisar datos, solo datos tipos nümeros permitidos">
+ </label>
+
+<label>DIRECCIÓN DEL CLIENTE<span class="tooltip">?</span>
+
+ <!-- Direccion cliente. Campo obligatorio, entre 10-50 carácteres
+       Sólo se permiten letras y números -->
+  <input type="text" name="nombre" placeholder=""
+         required pattern="[A-Za-z0-9]{5,40}"
+ title="Ingrese una dirección correcta"></label>
+
+
+<label>TELEFONO DEL CLIENTE<span class="tooltip">?</span>
+<!-- NUmero de tel.Campo obligatorio, entre 11-20 carácteres 
+Sólo se permitennúmeros -->
+<input type="text" name="nombre" placeholder=""
+required pattern="[0-9]{11,20}"
+title="Favor revisar datos, solo datos tipos nümeros permitidos">
+ </label>
+
+  
+
+                              
+	</div> <div class="col">
+
+	
+		
+
+<label>FECHA DE INGRESO DD/MM/AA<span class="tooltip">?</span>
+
+<div class="fecha_nacimiento">
+ <input type="text" class="small">
+ 
+
+<input type="text" class="small">
+ 
+<input type="text" class="small">
+
+</label>
+</div>
+
+
+<label>CAPITAL SOLICITADO RD$ <span class="tooltip">?</span>
+<!-- Sólo se permitennúmeros.Campo obligatorio, entre 3-10 carácteres-->
+<input type="text" name="nombre" placeholder=""
+required pattern="[0-9]{3,10}"
+title="Favor revisar datos, solo datos tipos nümeros permitidos">
+ </label>
+
+
+<label>TASA DE INTERES (%)<span class="tooltip">?</span>
+<!-- Sólo se permitennúmeros.Campo obligatorio, entre 2-6 carácteres-->
+<input type="text" name="nombre" placeholder=""
+required pattern="[0.1-9]{2,6}"
+title="Favor revisar datos, solo datos tipos nümeros permitidos">
+ </label>
+
+<label>MODALIDAD DE PRESTAMOS <span class="tooltip">?</span>
+  <input type="text" name="nombre" placeholder=""
+minlength="5" maxlength="20" required pattern="[A-Za-z]{5,20}">
+</label>
+
+
+
+</div>
+
+
+<div class="col all">
+	
+
+									
+
+<input type="checkbox">
+ 
+
+<span>Confirmar que la información sea la correcta</span>
+ </div>
+
+
+</fieldset>
+
+ <input type="submit" value="Siguiente" formaction="paso-2.html" >
+
+
+</fieldset>
+
+ <input type="submit" value="Cancelar" formaction="login.html"></form>
+
+
+</div>
+</div>
+ 
+
+
+
+
+</body>
+
+</html>
+
+
